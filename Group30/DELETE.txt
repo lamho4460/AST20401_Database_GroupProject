@@ -1,0 +1,21 @@
+DELETE blood_inventory
+WHERE Condition(example:EntryDate='2019-10-10');
+
+
+DELETE donor_registration
+WHERE Condition;
+
+DELETE donrecord
+WHERE Condition;
+
+DELETE emergencyContact
+WHERE Condition;
+
+DELETE hospital
+WHERE Condition;
+
+DELETE medicsurrecord
+WHERE condition;
+
+DELETE staff_info
+WHERE condition;

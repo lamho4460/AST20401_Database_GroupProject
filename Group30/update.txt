@@ -1,0 +1,28 @@
+UPDATE blood_inventory
+SET DorID='value',Haemoglobin='value',EntryDate='value',ExpiryDate='value',storageLoc='value',staffID='value',bStatus='value'
+WHERE Condition(example:EntryDate='2019-10-10');
+
+
+UPDATE donor_registration
+SET DorID='value',DorName='value',age='value',gender='value',PreID='value',heiwei='value',address='value',phoneNo='value',bloodType='value',prevDate='value',Disease='value',staffID='value'
+WHERE Condition;
+
+UPDATE donrecord
+SET DorID='value',Ddate='value',DorVenue='value',staffID='value',Status='value',bldPressure='value',Volume='value',PackID='value'
+WHERE Condition;
+
+UPDATE emergencyContact
+SET DorID='value',emName='value',emContact='value',relationship='value'
+WHERE Condition;
+
+UPDATE hospital
+SET StorageLoc='value',Address='value',District='value'
+WHERE Condition;
+
+UPDATE medicsurrecord
+SET DorID='value',Medic='value',staffID='value'
+WHERE condition;
+
+UPDATE staff_info
+SET staffID='value',staffName='value',gender='value',post='value',registrationNum='value'
+WHERE condition;
